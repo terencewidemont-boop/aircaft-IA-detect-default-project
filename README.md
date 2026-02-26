@@ -21,8 +21,18 @@ data/raw/
 ## Outputs
 Best model saved in checkpoints/best_model.pth
 
+## Features
+- Custom CNN model
+- Transfer Learning with ResNet18
+- Automatic dataset split (train/val/test)
+- Evaluation with confusion matrix & classification report
+- Grad-CAM interpretability
+- Inference script
+- Modular structure
+
 ## Future Improvements
 - Transfer learning (ResNet/EfficientNet)
 - Segmentation instead of classification
 - Advanced data augmentation
 - Deployment as web API
+
